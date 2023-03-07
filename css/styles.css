@@ -10,3 +10,47 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Components */
+.sub-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--secondary-title-color);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+/* Section Header */
+.header {
+  background-color: grey;
+}
+.header-link {
+}
+
+/* Section Hero */
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+  background-color: grey;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--secondary-text-color);
+  background-color: grey;
+}
