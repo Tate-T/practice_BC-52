@@ -1,0 +1,12 @@
+:root {
+  --primary-text-color: #999999;
+  --primary-title-color: #000000;
+  --secondary-title-color: #ffffff;
+  --accent-color: #4985ff;
+  --btn-bacground-color: #4985ff;
+  --secondary-text-color: #ffffff;
+  --background-color: #f6f6f8;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
