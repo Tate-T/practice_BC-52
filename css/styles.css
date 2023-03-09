@@ -221,10 +221,22 @@
     .standarts-img {
     }
     .standarts-list {
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-evenly;
+        /* gap: 100px; */
     }
     .standarts-item {
+        outline: 3px solid yellow;
+        width: 104px;
+        
     }
     .standarts-sts {
+        font-size: 36px;
+        line-height: 1.47;
+        color: var(--subtitle-text-color);
+
     }
     .standarts-name {
+        margin-top: 17px;
     }
