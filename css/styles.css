@@ -140,6 +140,10 @@ section {
   padding-top: 220px;
   padding-bottom: 335px;
   background-color: grey;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+
 }
 
 .hero .container {
@@ -164,7 +168,6 @@ section {
   line-height: 1.33;
   text-align: center;
   color: var(--secondary-text-color);
-  background-color: grey;
   margin-bottom: 50px;
 }
 
