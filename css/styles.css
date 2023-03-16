@@ -45,14 +45,6 @@ body {
 
 /* Components */
 
-.container {
-  width: 1143px;
-  padding: 0 15px;
-  /* outline: 1px solid red; */
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .grid-list {
   display: flex;
   gap: var(--gap);
@@ -166,44 +158,6 @@ body {
 }
 
 /* Section Hero */
-
-.hero {
-  padding-top: 319px;
-  padding-bottom: 335px;
-  background-color: grey;
-  background-image: url(../images/hero.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.hero .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.hero-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  text-align: center;
-  color: var(--secondary-text-color);
-  margin-bottom: 20px;
-}
-
-.hero-title {
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 1.33;
-  text-align: center;
-  color: var(--secondary-text-color);
-  margin-bottom: 50px;
-}
-
-.hero-button:hover {
-  color: var(--secondary-text-color);
-}
 
 /* <!-- Services section --> */
 .services {

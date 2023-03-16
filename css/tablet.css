@@ -1,0 +1,15 @@
+@media screen and (min-width: 700px) {
+  .container {
+    width: 700px;
+  }
+  /* Section Hero */
+  .hero {
+    padding-top: 219px;
+    padding-bottom: 235px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+}
