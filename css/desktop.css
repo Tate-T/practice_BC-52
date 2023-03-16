@@ -3,6 +3,11 @@
     width: 1143px;
   }
 
+  /** Components */
+  .section-title {
+    font-size: 36px;
+  }
+
   /* Section Hero */
 
   .hero {
@@ -12,5 +17,19 @@
   .hero-title {
     font-size: 48px;
     margin-bottom: 50px;
+  }
+
+  /** Services section  */
+  .services {
+    padding-top: 110px;
+    padding-bottom: 105px;
+  }
+
+  .services-text {
+    margin: 0 auto 70px;
+  }
+
+  .services-item {
+    width: 353px;
   }
 }

@@ -2,6 +2,15 @@
   .container {
     width: 700px;
   }
+
+  /** Components */
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-text {
+  font-size: 16px;
+}
   /* Section Hero */
   .hero {
     padding-top: 219px;
@@ -11,5 +20,19 @@
   .hero-title {
     font-size: 36px;
     margin-bottom: 40px;
+  }
+
+  /** Services section  */
+  .services {
+    padding-top: 80px;
+    padding-bottom: 85px;
+  }
+
+    .services-text {
+    margin: 0 auto 50px;
+  }
+
+  .services-item {
+    width: 300px;
   }
 }

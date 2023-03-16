@@ -62,12 +62,6 @@ body {
   color: var(--secondary-title-color);
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.47;
-  color: var(--primary-title-color);
-}
 
 .section-text {
   font-size: 16px;
@@ -157,60 +151,18 @@ body {
   position: relative;
 }
 
-/* Section Hero */
 
 /* <!-- Services section --> */
-.services {
-  padding-top: 110px;
-  padding-bottom: 105px;
-}
-
-.services-title {
-  max-width: 739px;
-  margin: 0 auto 32px;
-  text-align: center;
-}
-
-.services-text {
-  max-width: 730px;
-  margin: 0 auto 70px;
-  text-align: center;
-}
-
-.services-icon {
-  width: 40px;
-  height: 40px;
-  fill: var(--accent-color);
-}
-
-.services-circle-in {
-  border: 1px solid var(--accent-color);
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.services-circle-out {
-  border: 1px solid #e0e0e0;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
 
 .services-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 27px;
 }
 
 .services-item {
   display: flex;
+  width: 400px;
 }
 
 .services-info {
