@@ -197,7 +197,7 @@
       </div>
     </section> -->
     <!--Portfolio section-->
-    <!-- <section class="portfolio">
+    <section class="portfolio">
       <div class="container">
         <div class="portfolio-container">
           <h2 class="potrfolio-title section-title">
@@ -209,7 +209,15 @@
         </div>
         <ul class="portfolio-list">
           <li class="portfolio-item">
-            <img class="portfolio-photo" src="./images/portfolio.jpg" alt="продукт" />
+            <picture>
+              <source srcset="./images/worker1-desktop@1x.jpg 1x, ./images/worker1-desktop@2x.jpg 2x"
+                media="(min-width: 1143px)">
+              <source srcset="./images/worker1-tablet@1x.jpg 1x, ./images/worker1-tablet@2x.jpg 2x"
+                media="(min-width: 700px)">
+              <source srcset="./images/worker1-mobile@1x.jpg 1x, ./images/worker1-mobile@2x.jpg 2x"
+                media="(max-width: 699px)">
+              <img class="portfolio-photo" src="./images/portfolio.jpg" alt="продукт" />
+            </picture>
             <h3 class="portfolio-name subtitle">
               <span class="portfolio-number"> 01.</span> Дослідження і
               упаковка
@@ -249,7 +257,7 @@
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
 
     <!-- Project section -->
     <!-- <section class="project">
